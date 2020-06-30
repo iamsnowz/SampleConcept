@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B70C202C24ABBDB1008C7241 /* EkoFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C202B24ABBDB1008C7241 /* EkoFriendView.swift */; };
+		B71BD1CF24ABE6EB00FC4B63 /* CustomAdapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BD1CD24ABE6EB00FC4B63 /* CustomAdapterViewController.swift */; };
+		B71BD1D024ABE6EB00FC4B63 /* CustomAdapterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B71BD1CE24ABE6EB00FC4B63 /* CustomAdapterViewController.xib */; };
+		B71BD1D324ABE81000FC4B63 /* ClientCustomFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BD1D124ABE81000FC4B63 /* ClientCustomFeedDetailViewController.swift */; };
+		B71BD1D424ABE81000FC4B63 /* ClientCustomFeedDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B71BD1D224ABE81000FC4B63 /* ClientCustomFeedDetailViewController.xib */; };
+		B71BD1D724ABEC4E00FC4B63 /* ClientReplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BD1D624ABEC4E00FC4B63 /* ClientReplaceView.swift */; };
+		B71BD1D924ABED8800FC4B63 /* EkoCategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BD1D824ABED8800FC4B63 /* EkoCategoriesListViewController.swift */; };
+		B751AC4F24ABCEC1000701B5 /* EkoFeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B751AC4E24ABCEC1000701B5 /* EkoFeedView.xib */; };
+		B751AC5224ABCF20000701B5 /* NibFileOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751AC5124ABCF20000701B5 /* NibFileOwnerLoadable.swift */; };
+		B751AC5424ABD0DE000701B5 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751AC5324ABD0DE000701B5 /* UITableView+Extension.swift */; };
+		B751AC5624ABD4A3000701B5 /* EkoMyCommunitiesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B751AC5524ABD4A3000701B5 /* EkoMyCommunitiesView.xib */; };
+		B751AC5824ABD649000701B5 /* EkoRecommendedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B751AC5724ABD649000701B5 /* EkoRecommendedView.xib */; };
+		B751AC5A24ABDB73000701B5 /* EkoTrendingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B751AC5924ABDB73000701B5 /* EkoTrendingView.xib */; };
+		B751AC5C24ABDF10000701B5 /* EkoTopCategoriesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B751AC5B24ABDF10000701B5 /* EkoTopCategoriesView.xib */; };
+		B7551B8524AB1169007798DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7551B8424AB1169007798DD /* AppDelegate.swift */; };
+		B7551B8724AB1169007798DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7551B8624AB1169007798DD /* SceneDelegate.swift */; };
+		B7551B8924AB1169007798DD /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7551B8824AB1169007798DD /* ClientViewController.swift */; };
+		B7551B8C24AB1169007798DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7551B8A24AB1169007798DD /* Main.storyboard */; };
+		B7551B8E24AB1170007798DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7551B8D24AB1170007798DD /* Assets.xcassets */; };
+		B7551B9124AB1170007798DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7551B8F24AB1170007798DD /* LaunchScreen.storyboard */; };
+		B7BE907624AB931C005DF56A /* EkoCommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE907524AB931C005DF56A /* EkoCommunityViewController.swift */; };
+		B7BE907E24AB950A005DF56A /* EkoViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE907B24AB950A005DF56A /* EkoViewPager.swift */; };
+		B7BE907F24AB950A005DF56A /* EkoViewPagerTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE907C24AB950A005DF56A /* EkoViewPagerTab.swift */; };
+		B7BE908024AB950A005DF56A /* EkoViewPagerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE907D24AB950A005DF56A /* EkoViewPagerOptions.swift */; };
+		B7BE908224AB95EF005DF56A /* EkoNewsfeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE908124AB95EF005DF56A /* EkoNewsfeedViewController.swift */; };
+		B7BE908424AB9AAB005DF56A /* EkoExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE908324AB9AAB005DF56A /* EkoExploreViewController.swift */; };
+		B7BE908624ABA21F005DF56A /* EkoNewsfeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE908524ABA21F005DF56A /* EkoNewsfeedDetailViewController.swift */; };
+		B7BE908A24ABA23D005DF56A /* EkoProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE908924ABA23D005DF56A /* EkoProfileViewController.swift */; };
+		B7BE908D24ABAE8C005DF56A /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE908C24ABAE8C005DF56A /* FriendListViewController.swift */; };
+		B7BE908F24ABB022005DF56A /* FriendListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7BE908E24ABB022005DF56A /* FriendListViewController.xib */; };
+		B7BE909324ABB070005DF56A /* EkoFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE909224ABB070005DF56A /* EkoFeedView.swift */; };
+		B7BE909724ABB0F0005DF56A /* EkoFeedAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE909624ABB0F0005DF56A /* EkoFeedAdapter.swift */; };
+		B7BE909924ABB236005DF56A /* EkoMyCommunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE909824ABB236005DF56A /* EkoMyCommunitiesView.swift */; };
+		B7BE909C24ABB27A005DF56A /* EkoFeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE909B24ABB27A005DF56A /* EkoFeedManager.swift */; };
+		B7BE90A024ABB2D7005DF56A /* EkoFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE909E24ABB2D7005DF56A /* EkoFeedTableViewCell.swift */; };
+		B7BE90A124ABB2D7005DF56A /* EkoFeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7BE909F24ABB2D7005DF56A /* EkoFeedTableViewCell.xib */; };
+		B7BE90A324ABB587005DF56A /* EkoCommunity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7BE90A224ABB587005DF56A /* EkoCommunity.storyboard */; };
+		B7BE90A524ABB620005DF56A /* EkoRecommendedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90A424ABB620005DF56A /* EkoRecommendedView.swift */; };
+		B7BE90A724ABB629005DF56A /* EkoTrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90A624ABB629005DF56A /* EkoTrendingView.swift */; };
+		B7BE90A924ABB63E005DF56A /* EkoTopCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90A824ABB63E005DF56A /* EkoTopCategoriesView.swift */; };
+		B7BE90AD24ABB65E005DF56A /* EkoMyCommunitiesAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90AC24ABB65E005DF56A /* EkoMyCommunitiesAdapter.swift */; };
+		B7BE90AF24ABB667005DF56A /* EkoRecommendedAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90AE24ABB667005DF56A /* EkoRecommendedAdapter.swift */; };
+		B7BE90B124ABB67B005DF56A /* EkoTrendingAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90B024ABB67B005DF56A /* EkoTrendingAdapter.swift */; };
+		B7BE90B324ABB68A005DF56A /* EkoTopCategoriesAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90B224ABB68A005DF56A /* EkoTopCategoriesAdapter.swift */; };
+		B7BE90B624ABB69F005DF56A /* EkoMyCommunitiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90B524ABB69F005DF56A /* EkoMyCommunitiesManager.swift */; };
+		B7BE90B824ABB6AA005DF56A /* EkoRecommendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90B724ABB6AA005DF56A /* EkoRecommendManager.swift */; };
+		B7BE90BA24ABB6B2005DF56A /* EkoTrendingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90B924ABB6B2005DF56A /* EkoTrendingManager.swift */; };
+		B7BE90BC24ABB6C2005DF56A /* EkoCategoryiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90BB24ABB6C2005DF56A /* EkoCategoryiesManager.swift */; };
+		B7BE90C324ABB6FA005DF56A /* EkoMyCommunitiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90C124ABB6FA005DF56A /* EkoMyCommunitiesCollectionViewCell.swift */; };
+		B7BE90C424ABB6FA005DF56A /* EkoMyCommunitiesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7BE90C224ABB6FA005DF56A /* EkoMyCommunitiesCollectionViewCell.xib */; };
+		B7BE90C724ABB705005DF56A /* EkoRecommendedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90C524ABB705005DF56A /* EkoRecommendedCollectionViewCell.swift */; };
+		B7BE90C824ABB705005DF56A /* EkoRecommendedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7BE90C624ABB705005DF56A /* EkoRecommendedCollectionViewCell.xib */; };
+		B7BE90CF24ABB721005DF56A /* EkoTopCategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90CD24ABB721005DF56A /* EkoTopCategoriesCollectionViewCell.swift */; };
+		B7BE90D024ABB721005DF56A /* EkoTopCategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7BE90CE24ABB721005DF56A /* EkoTopCategoriesCollectionViewCell.xib */; };
+		B7BE90D324ABB732005DF56A /* EkoTrendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE90D124ABB732005DF56A /* EkoTrendingTableViewCell.swift */; };
+		B7BE90D424ABB732005DF56A /* EkoTrendingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7BE90D224ABB732005DF56A /* EkoTrendingTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B70C202B24ABBDB1008C7241 /* EkoFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoFriendView.swift; sourceTree = "<group>"; };
+		B71BD1CD24ABE6EB00FC4B63 /* CustomAdapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAdapterViewController.swift; sourceTree = "<group>"; };
+		B71BD1CE24ABE6EB00FC4B63 /* CustomAdapterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAdapterViewController.xib; sourceTree = "<group>"; };
+		B71BD1D124ABE81000FC4B63 /* ClientCustomFeedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCustomFeedDetailViewController.swift; sourceTree = "<group>"; };
+		B71BD1D224ABE81000FC4B63 /* ClientCustomFeedDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClientCustomFeedDetailViewController.xib; sourceTree = "<group>"; };
+		B71BD1D624ABEC4E00FC4B63 /* ClientReplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientReplaceView.swift; sourceTree = "<group>"; };
+		B71BD1D824ABED8800FC4B63 /* EkoCategoriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoCategoriesListViewController.swift; sourceTree = "<group>"; };
+		B751AC4E24ABCEC1000701B5 /* EkoFeedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EkoFeedView.xib; sourceTree = "<group>"; };
+		B751AC5124ABCF20000701B5 /* NibFileOwnerLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibFileOwnerLoadable.swift; sourceTree = "<group>"; };
+		B751AC5324ABD0DE000701B5 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		B751AC5524ABD4A3000701B5 /* EkoMyCommunitiesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EkoMyCommunitiesView.xib; sourceTree = "<group>"; };
+		B751AC5724ABD649000701B5 /* EkoRecommendedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EkoRecommendedView.xib; sourceTree = "<group>"; };
+		B751AC5924ABDB73000701B5 /* EkoTrendingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EkoTrendingView.xib; sourceTree = "<group>"; };
+		B751AC5B24ABDF10000701B5 /* EkoTopCategoriesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EkoTopCategoriesView.xib; sourceTree = "<group>"; };
+		B7551B8124AB1169007798DD /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7551B8424AB1169007798DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7551B8624AB1169007798DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7551B8824AB1169007798DD /* ClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
+		B7551B8B24AB1169007798DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7551B8D24AB1170007798DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7551B9024AB1170007798DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7551B9224AB1170007798DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7BE907524AB931C005DF56A /* EkoCommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoCommunityViewController.swift; sourceTree = "<group>"; };
+		B7BE907B24AB950A005DF56A /* EkoViewPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EkoViewPager.swift; sourceTree = "<group>"; };
+		B7BE907C24AB950A005DF56A /* EkoViewPagerTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EkoViewPagerTab.swift; sourceTree = "<group>"; };
+		B7BE907D24AB950A005DF56A /* EkoViewPagerOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EkoViewPagerOptions.swift; sourceTree = "<group>"; };
+		B7BE908124AB95EF005DF56A /* EkoNewsfeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoNewsfeedViewController.swift; sourceTree = "<group>"; };
+		B7BE908324AB9AAB005DF56A /* EkoExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoExploreViewController.swift; sourceTree = "<group>"; };
+		B7BE908524ABA21F005DF56A /* EkoNewsfeedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoNewsfeedDetailViewController.swift; sourceTree = "<group>"; };
+		B7BE908924ABA23D005DF56A /* EkoProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoProfileViewController.swift; sourceTree = "<group>"; };
+		B7BE908C24ABAE8C005DF56A /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		B7BE908E24ABB022005DF56A /* FriendListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendListViewController.xib; sourceTree = "<group>"; };
+		B7BE909224ABB070005DF56A /* EkoFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoFeedView.swift; sourceTree = "<group>"; };
+		B7BE909624ABB0F0005DF56A /* EkoFeedAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoFeedAdapter.swift; sourceTree = "<group>"; };
+		B7BE909824ABB236005DF56A /* EkoMyCommunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoMyCommunitiesView.swift; sourceTree = "<group>"; };
+		B7BE909B24ABB27A005DF56A /* EkoFeedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoFeedManager.swift; sourceTree = "<group>"; };
+		B7BE909E24ABB2D7005DF56A /* EkoFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoFeedTableViewCell.swift; sourceTree = "<group>"; };
+		B7BE909F24ABB2D7005DF56A /* EkoFeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EkoFeedTableViewCell.xib; sourceTree = "<group>"; };
+		B7BE90A224ABB587005DF56A /* EkoCommunity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EkoCommunity.storyboard; sourceTree = "<group>"; };
+		B7BE90A424ABB620005DF56A /* EkoRecommendedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoRecommendedView.swift; sourceTree = "<group>"; };
+		B7BE90A624ABB629005DF56A /* EkoTrendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoTrendingView.swift; sourceTree = "<group>"; };
+		B7BE90A824ABB63E005DF56A /* EkoTopCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoTopCategoriesView.swift; sourceTree = "<group>"; };
+		B7BE90AC24ABB65E005DF56A /* EkoMyCommunitiesAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoMyCommunitiesAdapter.swift; sourceTree = "<group>"; };
+		B7BE90AE24ABB667005DF56A /* EkoRecommendedAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoRecommendedAdapter.swift; sourceTree = "<group>"; };
+		B7BE90B024ABB67B005DF56A /* EkoTrendingAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoTrendingAdapter.swift; sourceTree = "<group>"; };
+		B7BE90B224ABB68A005DF56A /* EkoTopCategoriesAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoTopCategoriesAdapter.swift; sourceTree = "<group>"; };
+		B7BE90B524ABB69F005DF56A /* EkoMyCommunitiesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoMyCommunitiesManager.swift; sourceTree = "<group>"; };
+		B7BE90B724ABB6AA005DF56A /* EkoRecommendManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoRecommendManager.swift; sourceTree = "<group>"; };
+		B7BE90B924ABB6B2005DF56A /* EkoTrendingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoTrendingManager.swift; sourceTree = "<group>"; };
+		B7BE90BB24ABB6C2005DF56A /* EkoCategoryiesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoCategoryiesManager.swift; sourceTree = "<group>"; };
+		B7BE90C124ABB6FA005DF56A /* EkoMyCommunitiesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoMyCommunitiesCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7BE90C224ABB6FA005DF56A /* EkoMyCommunitiesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EkoMyCommunitiesCollectionViewCell.xib; sourceTree = "<group>"; };
+		B7BE90C524ABB705005DF56A /* EkoRecommendedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoRecommendedCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7BE90C624ABB705005DF56A /* EkoRecommendedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EkoRecommendedCollectionViewCell.xib; sourceTree = "<group>"; };
+		B7BE90CD24ABB721005DF56A /* EkoTopCategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoTopCategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7BE90CE24ABB721005DF56A /* EkoTopCategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EkoTopCategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		B7BE90D124ABB732005DF56A /* EkoTrendingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkoTrendingTableViewCell.swift; sourceTree = "<group>"; };
+		B7BE90D224ABB732005DF56A /* EkoTrendingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EkoTrendingTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7551B7E24AB1169007798DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B71BD1D524ABEC3D00FC4B63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B71BD1D624ABEC4E00FC4B63 /* ClientReplaceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B751AC5024ABCF13000701B5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B751AC5124ABCF20000701B5 /* NibFileOwnerLoadable.swift */,
+				B751AC5324ABD0DE000701B5 /* UITableView+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B7551B7824AB1169007798DD = {
+			isa = PBXGroup;
+			children = (
+				B7551B8324AB1169007798DD /* Sample */,
+				B7551B8224AB1169007798DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7551B8224AB1169007798DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7551B8124AB1169007798DD /* Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7551B8324AB1169007798DD /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE909124ABB05A005DF56A /* Eko */,
+				B7BE908B24ABAE6B005DF56A /* Client */,
+				B7551B8424AB1169007798DD /* AppDelegate.swift */,
+				B7551B8624AB1169007798DD /* SceneDelegate.swift */,
+				B7551B8824AB1169007798DD /* ClientViewController.swift */,
+				B7551B8A24AB1169007798DD /* Main.storyboard */,
+				B7551B8D24AB1170007798DD /* Assets.xcassets */,
+				B7551B8F24AB1170007798DD /* LaunchScreen.storyboard */,
+				B7551B9224AB1170007798DD /* Info.plist */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		B7551B9824AB12F2007798DD /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE907524AB931C005DF56A /* EkoCommunityViewController.swift */,
+				B7BE908124AB95EF005DF56A /* EkoNewsfeedViewController.swift */,
+				B7BE908324AB9AAB005DF56A /* EkoExploreViewController.swift */,
+				B7BE908524ABA21F005DF56A /* EkoNewsfeedDetailViewController.swift */,
+				B7BE908924ABA23D005DF56A /* EkoProfileViewController.swift */,
+				B71BD1D824ABED8800FC4B63 /* EkoCategoriesListViewController.swift */,
+				B7BE90A224ABB587005DF56A /* EkoCommunity.storyboard */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		B7BE907A24AB950A005DF56A /* View Pager */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE907B24AB950A005DF56A /* EkoViewPager.swift */,
+				B7BE907C24AB950A005DF56A /* EkoViewPagerTab.swift */,
+				B7BE907D24AB950A005DF56A /* EkoViewPagerOptions.swift */,
+			);
+			path = "View Pager";
+			sourceTree = "<group>";
+		};
+		B7BE908B24ABAE6B005DF56A /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				B71BD1D524ABEC3D00FC4B63 /* View */,
+				B7BE908C24ABAE8C005DF56A /* FriendListViewController.swift */,
+				B7BE908E24ABB022005DF56A /* FriendListViewController.xib */,
+				B71BD1CD24ABE6EB00FC4B63 /* CustomAdapterViewController.swift */,
+				B71BD1CE24ABE6EB00FC4B63 /* CustomAdapterViewController.xib */,
+				B71BD1D124ABE81000FC4B63 /* ClientCustomFeedDetailViewController.swift */,
+				B71BD1D224ABE81000FC4B63 /* ClientCustomFeedDetailViewController.xib */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		B7BE909024ABB057005DF56A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE909224ABB070005DF56A /* EkoFeedView.swift */,
+				B751AC4E24ABCEC1000701B5 /* EkoFeedView.xib */,
+				B7BE909824ABB236005DF56A /* EkoMyCommunitiesView.swift */,
+				B751AC5524ABD4A3000701B5 /* EkoMyCommunitiesView.xib */,
+				B7BE90A424ABB620005DF56A /* EkoRecommendedView.swift */,
+				B751AC5724ABD649000701B5 /* EkoRecommendedView.xib */,
+				B7BE90A624ABB629005DF56A /* EkoTrendingView.swift */,
+				B751AC5924ABDB73000701B5 /* EkoTrendingView.xib */,
+				B7BE90A824ABB63E005DF56A /* EkoTopCategoriesView.swift */,
+				B751AC5B24ABDF10000701B5 /* EkoTopCategoriesView.xib */,
+				B70C202B24ABBDB1008C7241 /* EkoFriendView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7BE909124ABB05A005DF56A /* Eko */ = {
+			isa = PBXGroup;
+			children = (
+				B751AC5024ABCF13000701B5 /* Helper */,
+				B7BE909D24ABB2CB005DF56A /* Cell */,
+				B7BE909A24ABB271005DF56A /* Data Manager */,
+				B7BE909524ABB0E5005DF56A /* Adapter */,
+				B7BE909024ABB057005DF56A /* Views */,
+				B7BE907A24AB950A005DF56A /* View Pager */,
+				B7551B9824AB12F2007798DD /* View Controller */,
+			);
+			path = Eko;
+			sourceTree = "<group>";
+		};
+		B7BE909524ABB0E5005DF56A /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE909624ABB0F0005DF56A /* EkoFeedAdapter.swift */,
+				B7BE90AC24ABB65E005DF56A /* EkoMyCommunitiesAdapter.swift */,
+				B7BE90AE24ABB667005DF56A /* EkoRecommendedAdapter.swift */,
+				B7BE90B024ABB67B005DF56A /* EkoTrendingAdapter.swift */,
+				B7BE90B224ABB68A005DF56A /* EkoTopCategoriesAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		B7BE909A24ABB271005DF56A /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE909B24ABB27A005DF56A /* EkoFeedManager.swift */,
+				B7BE90B524ABB69F005DF56A /* EkoMyCommunitiesManager.swift */,
+				B7BE90B724ABB6AA005DF56A /* EkoRecommendManager.swift */,
+				B7BE90B924ABB6B2005DF56A /* EkoTrendingManager.swift */,
+				B7BE90BB24ABB6C2005DF56A /* EkoCategoryiesManager.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		B7BE909D24ABB2CB005DF56A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE90C024ABB6D9005DF56A /* Categories */,
+				B7BE90BF24ABB6D5005DF56A /* Trending */,
+				B7BE90BE24ABB6CE005DF56A /* Recommened */,
+				B7BE90BD24ABB6C5005DF56A /* MyCommunities */,
+				B7BE90B424ABB691005DF56A /* Feed */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B7BE90B424ABB691005DF56A /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE909E24ABB2D7005DF56A /* EkoFeedTableViewCell.swift */,
+				B7BE909F24ABB2D7005DF56A /* EkoFeedTableViewCell.xib */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		B7BE90BD24ABB6C5005DF56A /* MyCommunities */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE90C124ABB6FA005DF56A /* EkoMyCommunitiesCollectionViewCell.swift */,
+				B7BE90C224ABB6FA005DF56A /* EkoMyCommunitiesCollectionViewCell.xib */,
+			);
+			path = MyCommunities;
+			sourceTree = "<group>";
+		};
+		B7BE90BE24ABB6CE005DF56A /* Recommened */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE90C524ABB705005DF56A /* EkoRecommendedCollectionViewCell.swift */,
+				B7BE90C624ABB705005DF56A /* EkoRecommendedCollectionViewCell.xib */,
+			);
+			path = Recommened;
+			sourceTree = "<group>";
+		};
+		B7BE90BF24ABB6D5005DF56A /* Trending */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE90D124ABB732005DF56A /* EkoTrendingTableViewCell.swift */,
+				B7BE90D224ABB732005DF56A /* EkoTrendingTableViewCell.xib */,
+			);
+			path = Trending;
+			sourceTree = "<group>";
+		};
+		B7BE90C024ABB6D9005DF56A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE90CD24ABB721005DF56A /* EkoTopCategoriesCollectionViewCell.swift */,
+				B7BE90CE24ABB721005DF56A /* EkoTopCategoriesCollectionViewCell.xib */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7551B8024AB1169007798DD /* Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7551B9524AB1170007798DD /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildPhases = (
+				B7551B7D24AB1169007798DD /* Sources */,
+				B7551B7E24AB1169007798DD /* Frameworks */,
+				B7551B7F24AB1169007798DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample;
+			productName = Sample;
+			productReference = B7551B8124AB1169007798DD /* Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7551B7924AB1169007798DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Eko;
+				TargetAttributes = {
+					B7551B8024AB1169007798DD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = B7551B7C24AB1169007798DD /* Build configuration list for PBXProject "Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7551B7824AB1169007798DD;
+			productRefGroup = B7551B8224AB1169007798DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7551B8024AB1169007798DD /* Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7551B7F24AB1169007798DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BE90D024ABB721005DF56A /* EkoTopCategoriesCollectionViewCell.xib in Resources */,
+				B7BE90A324ABB587005DF56A /* EkoCommunity.storyboard in Resources */,
+				B751AC5624ABD4A3000701B5 /* EkoMyCommunitiesView.xib in Resources */,
+				B7BE908F24ABB022005DF56A /* FriendListViewController.xib in Resources */,
+				B7BE90C424ABB6FA005DF56A /* EkoMyCommunitiesCollectionViewCell.xib in Resources */,
+				B751AC5A24ABDB73000701B5 /* EkoTrendingView.xib in Resources */,
+				B7BE90D424ABB732005DF56A /* EkoTrendingTableViewCell.xib in Resources */,
+				B751AC4F24ABCEC1000701B5 /* EkoFeedView.xib in Resources */,
+				B7BE90A124ABB2D7005DF56A /* EkoFeedTableViewCell.xib in Resources */,
+				B7551B9124AB1170007798DD /* LaunchScreen.storyboard in Resources */,
+				B7551B8E24AB1170007798DD /* Assets.xcassets in Resources */,
+				B71BD1D024ABE6EB00FC4B63 /* CustomAdapterViewController.xib in Resources */,
+				B7BE90C824ABB705005DF56A /* EkoRecommendedCollectionViewCell.xib in Resources */,
+				B751AC5824ABD649000701B5 /* EkoRecommendedView.xib in Resources */,
+				B7551B8C24AB1169007798DD /* Main.storyboard in Resources */,
+				B71BD1D424ABE81000FC4B63 /* ClientCustomFeedDetailViewController.xib in Resources */,
+				B751AC5C24ABDF10000701B5 /* EkoTopCategoriesView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7551B7D24AB1169007798DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BE907624AB931C005DF56A /* EkoCommunityViewController.swift in Sources */,
+				B7BE90CF24ABB721005DF56A /* EkoTopCategoriesCollectionViewCell.swift in Sources */,
+				B751AC5424ABD0DE000701B5 /* UITableView+Extension.swift in Sources */,
+				B7BE908224AB95EF005DF56A /* EkoNewsfeedViewController.swift in Sources */,
+				B7BE90C724ABB705005DF56A /* EkoRecommendedCollectionViewCell.swift in Sources */,
+				B7BE90B824ABB6AA005DF56A /* EkoRecommendManager.swift in Sources */,
+				B7BE90AD24ABB65E005DF56A /* EkoMyCommunitiesAdapter.swift in Sources */,
+				B7BE908424AB9AAB005DF56A /* EkoExploreViewController.swift in Sources */,
+				B7BE90A024ABB2D7005DF56A /* EkoFeedTableViewCell.swift in Sources */,
+				B7BE90A524ABB620005DF56A /* EkoRecommendedView.swift in Sources */,
+				B7BE90B624ABB69F005DF56A /* EkoMyCommunitiesManager.swift in Sources */,
+				B7BE90A724ABB629005DF56A /* EkoTrendingView.swift in Sources */,
+				B7BE909324ABB070005DF56A /* EkoFeedView.swift in Sources */,
+				B7551B8924AB1169007798DD /* ClientViewController.swift in Sources */,
+				B7BE90B324ABB68A005DF56A /* EkoTopCategoriesAdapter.swift in Sources */,
+				B7BE908624ABA21F005DF56A /* EkoNewsfeedDetailViewController.swift in Sources */,
+				B751AC5224ABCF20000701B5 /* NibFileOwnerLoadable.swift in Sources */,
+				B7BE90B124ABB67B005DF56A /* EkoTrendingAdapter.swift in Sources */,
+				B7BE90AF24ABB667005DF56A /* EkoRecommendedAdapter.swift in Sources */,
+				B7BE90BC24ABB6C2005DF56A /* EkoCategoryiesManager.swift in Sources */,
+				B7BE908A24ABA23D005DF56A /* EkoProfileViewController.swift in Sources */,
+				B7BE909924ABB236005DF56A /* EkoMyCommunitiesView.swift in Sources */,
+				B7BE907F24AB950A005DF56A /* EkoViewPagerTab.swift in Sources */,
+				B7BE90BA24ABB6B2005DF56A /* EkoTrendingManager.swift in Sources */,
+				B70C202C24ABBDB1008C7241 /* EkoFriendView.swift in Sources */,
+				B7BE90D324ABB732005DF56A /* EkoTrendingTableViewCell.swift in Sources */,
+				B71BD1D324ABE81000FC4B63 /* ClientCustomFeedDetailViewController.swift in Sources */,
+				B7BE90A924ABB63E005DF56A /* EkoTopCategoriesView.swift in Sources */,
+				B7551B8524AB1169007798DD /* AppDelegate.swift in Sources */,
+				B7BE908D24ABAE8C005DF56A /* FriendListViewController.swift in Sources */,
+				B71BD1D724ABEC4E00FC4B63 /* ClientReplaceView.swift in Sources */,
+				B71BD1CF24ABE6EB00FC4B63 /* CustomAdapterViewController.swift in Sources */,
+				B7BE908024AB950A005DF56A /* EkoViewPagerOptions.swift in Sources */,
+				B71BD1D924ABED8800FC4B63 /* EkoCategoriesListViewController.swift in Sources */,
+				B7BE907E24AB950A005DF56A /* EkoViewPager.swift in Sources */,
+				B7BE909C24ABB27A005DF56A /* EkoFeedManager.swift in Sources */,
+				B7BE90C324ABB6FA005DF56A /* EkoMyCommunitiesCollectionViewCell.swift in Sources */,
+				B7551B8724AB1169007798DD /* SceneDelegate.swift in Sources */,
+				B7BE909724ABB0F0005DF56A /* EkoFeedAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7551B8A24AB1169007798DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7551B8B24AB1169007798DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7551B8F24AB1170007798DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7551B9024AB1170007798DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7551B9324AB1170007798DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7551B9424AB1170007798DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7551B9624AB1170007798DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37Z583JR6K;
+				INFOPLIST_FILE = Sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ekoapp.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7551B9724AB1170007798DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37Z583JR6K;
+				INFOPLIST_FILE = Sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ekoapp.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7551B7C24AB1169007798DD /* Build configuration list for PBXProject "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7551B9324AB1170007798DD /* Debug */,
+				B7551B9424AB1170007798DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7551B9524AB1170007798DD /* Build configuration list for PBXNativeTarget "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7551B9624AB1170007798DD /* Debug */,
+				B7551B9724AB1170007798DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7551B7924AB1169007798DD /* Project object */;
+}

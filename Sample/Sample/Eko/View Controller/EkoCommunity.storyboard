@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Eko Community View Controller-->
+        <scene sceneID="mUx-if-wWA">
+            <objects>
+                <viewController storyboardIdentifier="EkoCommunityViewController" id="0bG-YQ-vaa" customClass="EkoCommunityViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ot2-HZ-el3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="krY-oi-ZNy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oqb-G8-ahU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10" y="109"/>
+        </scene>
+        <!--Eko Newsfeed View Controller-->
+        <scene sceneID="e6g-cT-LNg">
+            <objects>
+                <viewController storyboardIdentifier="EkoNewsfeedViewController" id="e2J-TU-tTZ" customClass="EkoNewsfeedViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9iu-m7-Qeo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgE-rA-Usu">
+                                <rect key="frame" x="0.0" y="44" width="414" height="180"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="oM4-p9-Q2V"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n3d-Wf-Vj0">
+                                <rect key="frame" x="0.0" y="224" width="414" height="672"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dgE-rA-Usu" firstAttribute="top" secondItem="mb7-uT-Aey" secondAttribute="top" id="40K-fa-8NV"/>
+                            <constraint firstItem="dgE-rA-Usu" firstAttribute="leading" secondItem="mb7-uT-Aey" secondAttribute="leading" id="QOe-Q0-etI"/>
+                            <constraint firstItem="n3d-Wf-Vj0" firstAttribute="leading" secondItem="mb7-uT-Aey" secondAttribute="leading" id="Zrg-1g-dqO"/>
+                            <constraint firstItem="n3d-Wf-Vj0" firstAttribute="top" secondItem="dgE-rA-Usu" secondAttribute="bottom" id="bad-Of-I1W"/>
+                            <constraint firstItem="dgE-rA-Usu" firstAttribute="trailing" secondItem="mb7-uT-Aey" secondAttribute="trailing" id="iFP-pc-BLF"/>
+                            <constraint firstItem="n3d-Wf-Vj0" firstAttribute="trailing" secondItem="mb7-uT-Aey" secondAttribute="trailing" id="pyt-84-J5d"/>
+                            <constraint firstAttribute="bottom" secondItem="n3d-Wf-Vj0" secondAttribute="bottom" id="uWD-JL-ktw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mb7-uT-Aey"/>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="n3d-Wf-Vj0" id="mbK-fy-nwI"/>
+                        <outlet property="headerView" destination="dgE-rA-Usu" id="I18-hu-bXr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K5n-U3-8h7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="966.66666666666674" y="107.8125"/>
+        </scene>
+        <!--Eko Explore View Controller-->
+        <scene sceneID="uD8-YL-Aub">
+            <objects>
+                <viewController storyboardIdentifier="EkoExploreViewController" id="SKW-OK-X4t" customClass="EkoExploreViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zuQ-e5-zzv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x8E-WT-ceE">
+                                <rect key="frame" x="0.0" y="52" width="414" height="818"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hXN-0J-IeZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="384"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dd5-ZR-Zib">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="syR-aq-rgF">
+                                                <rect key="frame" x="0.0" y="128" width="414" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T47-Hl-GEW">
+                                                <rect key="frame" x="0.0" y="256" width="414" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hXN-0J-IeZ" secondAttribute="trailing" id="03s-Uk-Rk3"/>
+                                    <constraint firstItem="hXN-0J-IeZ" firstAttribute="leading" secondItem="x8E-WT-ceE" secondAttribute="leading" id="Zcg-68-MtV"/>
+                                    <constraint firstAttribute="bottom" secondItem="hXN-0J-IeZ" secondAttribute="bottom" id="g3p-kT-W9f"/>
+                                    <constraint firstItem="hXN-0J-IeZ" firstAttribute="top" secondItem="x8E-WT-ceE" secondAttribute="top" id="tNR-P8-T81"/>
+                                    <constraint firstItem="hXN-0J-IeZ" firstAttribute="centerX" secondItem="x8E-WT-ceE" secondAttribute="centerX" id="wIW-CT-kGg"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xSb-MZ-CWX" firstAttribute="trailing" secondItem="x8E-WT-ceE" secondAttribute="trailing" id="1Jd-dW-rxb"/>
+                            <constraint firstItem="x8E-WT-ceE" firstAttribute="top" secondItem="xSb-MZ-CWX" secondAttribute="top" id="5j4-Jk-Agg"/>
+                            <constraint firstAttribute="bottom" secondItem="x8E-WT-ceE" secondAttribute="bottom" id="szq-y6-Lt0"/>
+                            <constraint firstItem="x8E-WT-ceE" firstAttribute="leading" secondItem="zuQ-e5-zzv" secondAttribute="leading" id="xLz-WH-p8l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xSb-MZ-CWX"/>
+                    </view>
+                    <connections>
+                        <outlet property="bodyView" destination="syR-aq-rgF" id="rt6-aq-ie1"/>
+                        <outlet property="footerView" destination="T47-Hl-GEW" id="gg7-pc-o9A"/>
+                        <outlet property="headerView" destination="dd5-ZR-Zib" id="qzo-2w-l0N"/>
+                        <outlet property="scrollView" destination="x8E-WT-ceE" id="IC9-7e-Wxz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="voY-ap-LHw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1990" y="108"/>
+        </scene>
+        <!--Eko Newsfeed Detail View Controller-->
+        <scene sceneID="1Ck-26-uEK">
+            <objects>
+                <viewController storyboardIdentifier="EkoNewsfeedDetailViewController" id="Sw4-Rx-oqT" customClass="EkoNewsfeedDetailViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eOI-jd-0mt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feed Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agY-0G-uaq">
+                                <rect key="frame" x="102" y="421.5" width="210.5" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="agY-0G-uaq" firstAttribute="centerY" secondItem="eOI-jd-0mt" secondAttribute="centerY" id="ZfG-e2-cXw"/>
+                            <constraint firstItem="agY-0G-uaq" firstAttribute="centerX" secondItem="eOI-jd-0mt" secondAttribute="centerX" id="cQU-yU-cLJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="45i-be-9SL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="enc-t6-JOa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3057" y="108"/>
+        </scene>
+        <!--Eko Profile View Controller-->
+        <scene sceneID="x7I-aO-58c">
+            <objects>
+                <viewController storyboardIdentifier="EkoProfileViewController" id="wQ8-fe-Rp4" customClass="EkoProfileViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cSv-ke-7Jb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B81-3B-z49">
+                                <rect key="frame" x="148" y="421.5" width="118" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="B81-3B-z49" firstAttribute="centerX" secondItem="cSv-ke-7Jb" secondAttribute="centerX" id="IXu-f9-OOm"/>
+                            <constraint firstItem="B81-3B-z49" firstAttribute="centerY" secondItem="cSv-ke-7Jb" secondAttribute="centerY" id="Kqh-5i-9sd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7X2-rF-XfU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EuF-wh-sSd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4028" y="108"/>
+        </scene>
+        <!--Eko Categories List View Controller-->
+        <scene sceneID="QhQ-dp-ano">
+            <objects>
+                <viewController storyboardIdentifier="EkoCategoriesListViewController" id="c4y-Ma-eP8" customClass="EkoCategoriesListViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IBD-Ph-4hm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categories List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iHm-5f-9LH">
+                                <rect key="frame" x="110.5" y="430" width="193.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="iHm-5f-9LH" firstAttribute="centerX" secondItem="IBD-Ph-4hm" secondAttribute="centerX" id="6CR-11-chR"/>
+                            <constraint firstItem="iHm-5f-9LH" firstAttribute="centerY" secondItem="IBD-Ph-4hm" secondAttribute="centerY" id="xzs-47-N8v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4pX-PG-lb1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A8M-LS-xc0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4987" y="108"/>
+        </scene>
+    </scenes>
+</document>
